@@ -4,12 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Can_youafford_it
+namespace Activity_3
 {
     internal class Program
     {
         static void Main(string[] args)
-        { //Ask user to input the price
+        { 
+            //Ask user to input the price
             Console.Write("Enter the price: ");
             float price = float.Parse(Console.ReadLine());
 
@@ -31,3 +32,4 @@ namespace Can_youafford_it
         }
     }
 }
+
